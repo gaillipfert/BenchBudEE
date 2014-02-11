@@ -1,0 +1,277 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:BB
+LIBS:BB-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3150 2900 0    79   Input ~ 0
+RELAY+
+Text HLabel 3150 3250 0    79   Output ~ 0
+RELAY-
+Text HLabel 10350 2100 2    79   BiDi ~ 0
+RELAY_NC
+Text HLabel 10350 2300 2    79   BiDi ~ 0
+RELAY_NO
+$Comp
+L PHTRANS U?
+U 1 1 52F6443F
+P 5600 3100
+F 0 "U?" H 5550 3450 70  0000 C CNN
+F 1 "PHTRANS" H 5550 2750 70  0000 C CNN
+F 2 "" H 5600 3100 60  0000 C CNN
+F 3 "" H 5600 3100 60  0000 C CNN
+	1    5600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q?
+U 1 1 52F64453
+P 8900 3550
+F 0 "Q?" H 8900 3400 50  0000 R CNN
+F 1 "NPN" H 8900 3700 50  0000 R CNN
+F 2 "" H 8900 3550 60  0000 C CNN
+F 3 "" H 8900 3550 60  0000 C CNN
+	1    8900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 52F64467
+P 6350 3700
+F 0 "D?" H 6350 3800 50  0000 C CNN
+F 1 "LED" H 6350 3600 50  0000 C CNN
+F 2 "" H 6350 3700 60  0000 C CNN
+F 3 "" H 6350 3700 60  0000 C CNN
+	1    6350 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 52F6447B
+P 6800 3300
+F 0 "R?" V 6880 3300 40  0000 C CNN
+F 1 "R" V 6807 3301 40  0000 C CNN
+F 2 "" V 6730 3300 30  0000 C CNN
+F 3 "" H 6800 3300 30  0000 C CNN
+	1    6800 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SPDT K?
+U 1 1 52F653E7
+P 9750 2300
+F 0 "K?" H 9750 2700 70  0000 C CNN
+F 1 "SPDT" H 9750 1900 70  0000 C CNN
+F 2 "" H 9750 2450 60  0000 C CNN
+F 3 "" H 9750 2450 60  0000 C CNN
+	1    9750 2300
+	1    0    0    -1  
+$EndComp
+Text HLabel 10350 1750 2    79   BiDi ~ 0
+RELAY_COM
+Wire Wire Line
+	9000 2200 9350 2200
+Wire Wire Line
+	10350 2100 10150 2100
+Wire Wire Line
+	10350 2300 10150 2300
+Wire Wire Line
+	9000 3750 9000 4050
+Wire Wire Line
+	6150 3300 6350 3300
+Wire Wire Line
+	6350 3300 6550 3300
+Wire Wire Line
+	7000 2200 7000 2400
+Wire Wire Line
+	7000 2400 7000 2900
+Wire Wire Line
+	7000 2900 7000 3100
+$Comp
+L R R?
+U 1 1 52F69182
+P 9000 4300
+F 0 "R?" V 9080 4300 40  0000 C CNN
+F 1 "R" V 9007 4301 40  0000 C CNN
+F 2 "" V 8930 4300 30  0000 C CNN
+F 3 "" H 9000 4300 30  0000 C CNN
+	1    9000 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 52F6918D
+P 6350 4300
+F 0 "R?" V 6430 4300 40  0000 C CNN
+F 1 "R" V 6357 4301 40  0000 C CNN
+F 2 "" V 6280 4300 30  0000 C CNN
+F 3 "" H 6350 4300 30  0000 C CNN
+	1    6350 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 3500 6350 3300
+Connection ~ 6350 3300
+Wire Wire Line
+	6350 4050 6350 3900
+$Comp
+L GND #PWR?
+U 1 1 52F691B6
+P 9000 4850
+F 0 "#PWR?" H 9000 4850 30  0001 C CNN
+F 1 "GND" H 9000 4780 30  0001 C CNN
+F 2 "" H 9000 4850 60  0000 C CNN
+F 3 "" H 9000 4850 60  0000 C CNN
+	1    9000 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 4550 9000 4700
+Wire Wire Line
+	9000 4700 9000 4850
+Wire Wire Line
+	6350 4550 6350 4700
+Wire Wire Line
+	6350 4700 9000 4700
+Connection ~ 9000 4700
+$Comp
+L R R?
+U 1 1 52F69252
+P 7000 1950
+F 0 "R?" V 7080 1950 40  0000 C CNN
+F 1 "R" V 7007 1951 40  0000 C CNN
+F 2 "" V 6930 1950 30  0000 C CNN
+F 3 "" H 7000 1950 30  0000 C CNN
+	1    7000 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 52F6925D
+P 6550 2900
+F 0 "R?" V 6630 2900 40  0000 C CNN
+F 1 "R" V 6557 2901 40  0000 C CNN
+F 2 "" V 6480 2900 30  0000 C CNN
+F 3 "" H 6550 2900 30  0000 C CNN
+	1    6550 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +12P #PWR?
+U 1 1 52F69275
+P 7000 1350
+F 0 "#PWR?" H 7000 1320 30  0001 C CNN
+F 1 "+12P" H 7000 1450 30  0000 C CNN
+F 2 "" H 7000 1350 60  0000 C CNN
+F 3 "" H 7000 1350 60  0000 C CNN
+	1    7000 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1700 7000 1350
+Wire Wire Line
+	7000 3100 6150 3100
+Wire Wire Line
+	6150 2900 6300 2900
+Wire Wire Line
+	6800 2900 7000 2900
+Connection ~ 7000 2900
+$Comp
+L R R?
+U 1 1 52F692DD
+P 4250 3250
+F 0 "R?" V 4330 3250 40  0000 C CNN
+F 1 "R" V 4257 3251 40  0000 C CNN
+F 2 "" V 4180 3250 30  0000 C CNN
+F 3 "" H 4250 3250 30  0000 C CNN
+	1    4250 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 2900 3150 2900
+Wire Wire Line
+	5050 3250 4500 3250
+Wire Wire Line
+	4000 3250 3150 3250
+Wire Wire Line
+	10350 1750 9000 1750
+Wire Wire Line
+	9000 1750 9000 2200
+Wire Wire Line
+	9350 2400 8200 2400
+Wire Wire Line
+	8200 2400 7000 2400
+Connection ~ 7000 2400
+$Comp
+L DIODE D?
+U 1 1 52F694B5
+P 8200 2750
+F 0 "D?" H 8200 2850 40  0000 C CNN
+F 1 "DIODE" H 8200 2650 40  0000 C CNN
+F 2 "" H 8200 2750 60  0000 C CNN
+F 3 "" H 8200 2750 60  0000 C CNN
+	1    8200 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 3300 7500 3300
+Wire Wire Line
+	7500 3300 7500 3550
+Wire Wire Line
+	7500 3550 8700 3550
+Wire Wire Line
+	9000 2500 9000 3100
+Wire Wire Line
+	9000 3100 9000 3350
+Wire Wire Line
+	9000 3100 8200 3100
+Wire Wire Line
+	8200 3100 8200 2950
+Wire Wire Line
+	8200 2550 8200 2400
+Connection ~ 8200 2400
+Wire Wire Line
+	9350 2500 9000 2500
+Connection ~ 9000 3100
+$EndSCHEMATC
