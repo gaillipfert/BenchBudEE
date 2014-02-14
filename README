@@ -1,0 +1,8 @@
+The BenchBudEE is the project for the Session 1 course on ContextualElectronics.com. It is a flexible bench multitool, intended to teach a wide range of analog and digital technique and easily interface to the Arduino platform. The hardware files are licensed as Open Source Hardware, so anyone will be able to take the files and modify them (with attribution) or manufacture a finished board. All design files are available on GitHub. The board has the following subcircuits:
+
+    A high level analog input measurement circuit (for +/- 10V and thermocouple measurement)
+    A programmable current output.
+    A PWM fan control output.
+    Power conditioning and fixed voltage output circuits.
+    A relay control circuit.
+    An LED string driver.
