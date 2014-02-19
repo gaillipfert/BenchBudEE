@@ -1,6 +1,6 @@
-update=Wed 12 Feb 2014 04:41:45 PM EST
+update=Tue 18 Feb 2014 07:22:11 PM EST
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -43,8 +43,6 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
-version=1
 [eeschema]
 version=1
 PageLayoutDescrFile=
@@ -89,3 +87,5 @@ LibName29=contrib
 LibName30=valves
 LibName31=BB
 LibName32=/home/gail/ContextualElectronics/soldering/CE_Soldering_Practice/GLSP
+[general]
+version=1
