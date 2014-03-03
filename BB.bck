@@ -1,5 +1,31 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LM317_BB
+D LM317T, 1.5A 35V Adjustable Linear Regulator, TO-220
+K Adjustable Voltage Regulator 1.5A Positive
+F http://www.national.com/ds/LM/LM117.pdf
+$ENDCMP
+#
+$CMP LM317AT
+D LM317AT, 1.5A 35V Adjustable Linear Regulator, TO-220
+K Adjustable Voltage Regulator 1.5A Positive
+F http://www.national.com/ds/LM/LM117.pdf
+$ENDCMP
+#
+$CMP LM317T
+D LM317T, 1.5A 35V Adjustable Linear Regulator, TO-220
+K Adjustable Voltage Regulator 1.5A Positive
+F http://www.national.com/ds/LM/LM117.pdf
+$ENDCMP
+#
+$CMP MOS_N_NUM
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP MOSFET_N
+F transistors/mos/*.*
+$ENDCMP
+#
 $CMP SPDT
 D Single Pole, Double Throw
 K Relay

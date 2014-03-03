@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-01-25 BZR 4633)-product date = Sun 23 Feb 2014 07:45:50 PM EST
+Cmp-Mod V01 Created by CvPcb (2014-01-25 BZR 4633)-product date = Sun 02 Mar 2014 10:59:06 AM EST
 
 BeginCmp
 TimeStamp = /52ED2231/52F820B7;
@@ -31,15 +31,15 @@ EndCmp
 BeginCmp
 TimeStamp = /52ED22DE/52F7C794;
 Reference = C4;
-ValeurCmp = C;
-IdModule  = ;
+ValeurCmp = 1u;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED22DE/52F7C800;
 Reference = C5;
-ValeurCmp = C;
-IdModule  = ;
+ValeurCmp = 1u;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
@@ -199,8 +199,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52ED22DE/52F7C80D;
 Reference = D3;
-ValeurCmp = DIODESCH;
-IdModule  = ;
+ValeurCmp = B0540WS-7;
+IdModule  = BB:SOD-323;
 EndCmp
 
 BeginCmp
@@ -211,59 +211,66 @@ IdModule  = BB:SMA;
 EndCmp
 
 BeginCmp
-TimeStamp = /52ED22BF/52F43290;
-Reference = D5;
-ValeurCmp = ZENER;
-IdModule  = ;
-EndCmp
-
-BeginCmp
 TimeStamp = /52F6A413/530A86CA;
 Reference = D6;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = BB:SOT23-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F6A413/530A87C8;
 Reference = D7;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = BB:SOT23-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F6A413/530A8D32;
 Reference = D8;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = BB:SOT23-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F6A413/530A85CE;
 Reference = D9;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = BB:SOT23-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F6A413/530A8ADB;
 Reference = D10;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = BB:SOT23-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F6A413/530A87D3;
 Reference = D11;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = BB:SOT23-DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F6A413/5311D3C2;
+Reference = D12;
+ValeurCmp = MMBD914-7-F;
+IdModule  = BB:SOT23-DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F6A413/5311D4E8;
+Reference = D13;
+ValeurCmp = MMBD914-7-F;
+IdModule  = BB:SOT23-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F6A413/52F78AD3;
 Reference = JP1;
 ValeurCmp = JUMPER;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x01;
 EndCmp
 
 BeginCmp
@@ -297,8 +304,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52ED22DE/52F7C7DA;
 Reference = L4;
-ValeurCmp = INDUCTOR;
-IdModule  = ;
+ValeurCmp = 22u;
+IdModule  = BB:NR4012;
 EndCmp
 
 BeginCmp
@@ -416,8 +423,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52ED22DE/52F7CA2A;
 Reference = R8;
-ValeurCmp = R;
-IdModule  = ;
+ValeurCmp = 15;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
@@ -437,29 +444,29 @@ EndCmp
 BeginCmp
 TimeStamp = /52F6A413/52F7A078;
 Reference = R11;
-ValeurCmp = RVAR;
-IdModule  = ;
+ValeurCmp = 5K;
+IdModule  = BB:EVUE3K;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F6A413/52F79018;
 Reference = R12;
-ValeurCmp = R;
+ValeurCmp = 715;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F6A413/530A691B;
 Reference = R13;
-ValeurCmp = R;
+ValeurCmp = 715;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F6A413/530A6FAB;
 Reference = R14;
-ValeurCmp = RVAR;
-IdModule  = ;
+ValeurCmp = 5K;
+IdModule  = BB:EVUE3K;
 EndCmp
 
 BeginCmp
@@ -711,42 +718,42 @@ BeginCmp
 TimeStamp = /52ED2231/530A408D;
 Reference = R50;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BB:SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED2231/530A4098;
 Reference = R51;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BB:SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F6A413/530A67CA;
 Reference = R52;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F6A413/530A67C1;
 Reference = R53;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F6A413/530A62CD;
 Reference = R54;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F6A413/530A5F66;
 Reference = R55;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
@@ -802,7 +809,7 @@ BeginCmp
 TimeStamp = /52ED22DE/52F7C670;
 Reference = U2;
 ValeurCmp = AP5726;
-IdModule  = ;
+IdModule  = SMD_Packages:SOT23_6;
 EndCmp
 
 BeginCmp
@@ -823,28 +830,28 @@ BeginCmp
 TimeStamp = /52F6A413/530A690A;
 Reference = U5;
 ValeurCmp = LM337T;
-IdModule  = Discret:TO220;
+IdModule  = Discret:TO220_VERT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F6A413/530A66BD;
 Reference = U6;
 ValeurCmp = LM337T;
-IdModule  = Discret:TO220;
+IdModule  = Discret:TO220_VERT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F6A413/530A668B;
 Reference = U7;
 ValeurCmp = LM317T;
-IdModule  = Discret:TO220;
+IdModule  = Discret:TO220_VERT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F6A413/530A66A9;
 Reference = U8;
 ValeurCmp = LM317T;
-IdModule  = Discret:TO220;
+IdModule  = Discret:TO220_VERT;
 EndCmp
 
 BeginCmp
